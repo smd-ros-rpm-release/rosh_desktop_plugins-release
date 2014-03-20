@@ -1,0 +1,7 @@
+ros-hydro-rosh-desktop (1.0.1-0precise) precise; urgency=high
+
+  * catkinizing
+
+ -- Dan Lazewatsky <dan@lazewatsky.com>  Thu, 20 Mar 2014 05:00:00 -0000
+
+
