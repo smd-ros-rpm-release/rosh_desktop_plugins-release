@@ -1,0 +1,12 @@
+Source: ros-hydro-rosh-desktop-plugins
+Section: misc
+Priority: extra
+Maintainer: Dan Lazewatsky <dan@lazewatsky.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin
+Homepage: http://ros.org/wiki/rosh_desktop_plugins
+Standards-Version: 3.9.2
+
+Package: ros-hydro-rosh-desktop-plugins
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-rosh-desktop, ros-hydro-rosh-visualization
+Description: ROSH plugins related to the desktop variant.
