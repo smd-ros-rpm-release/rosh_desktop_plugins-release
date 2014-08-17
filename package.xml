@@ -1,6 +1,6 @@
 <package>
   <name>rosh_visualization</name>
-  <version>1.0.2</version>
+  <version>1.0.3</version>
   <description>ROSH plugin for the visualization stack.</description>
   <maintainer email="dan@lazewatsky.com">Dan Lazewatsky</maintainer>
 
@@ -17,7 +17,7 @@
   <!-- Dependencies needed after this package is compiled. -->
   <run_depend>roslib</run_depend>
   <run_depend>rosh</run_depend>
-  <run_depend>rviz</run_depend>
+  <run_depend>image_view</run_depend>
 
   <!-- Dependencies needed only for running tests. -->
   <!-- <test_depend>roslib</test_depend> -->
