@@ -1,0 +1,12 @@
+Source: ros-indigo-rosh-desktop-plugins
+Section: misc
+Priority: extra
+Maintainer: Dan Lazewatsky <dan@lazewatsky.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://ros.org/wiki/rosh_desktop_plugins
+Standards-Version: 3.9.2
+
+Package: ros-indigo-rosh-desktop-plugins
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-rosh-desktop, ros-indigo-rosh-visualization
+Description: ROSH plugins related to the desktop variant.
